@@ -26,8 +26,8 @@ setup(
   #   
   python_requires='>=2.7,<3', 
   #   
-  install_requires=['numpy>=1.16.5', 
-                    'pandas>=0.24.2', 
-                    'fplib>=0.1.1',
-                    'pathlib>=1.0.1']
+  install_requires=['numpy>=1.16.5,<1.17', 
+                    'pandas>=0.24.2,<0.25', 
+                    'fplib>=0.1.1,<0.2',
+                    'pathlib>=1.0.1,<1.1']
 )
