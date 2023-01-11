@@ -1,6 +1,10 @@
 # Version
 version: 2
 
+build:
+  tools:
+    python: "2.7.18"
+
 # Sphinx config
 sphinx:
   configuration: doc/conf.py
