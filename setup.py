@@ -5,13 +5,21 @@ The setup script for the daul package.
 """
 
 #%% Modules
+import os
 from setuptools import setup, find_packages
+
+#%% Reading of readme
+cwd = os.path.abspath(os.path.dirname(__file__))
+with open(os.path.join(cwd, 'README.rst')) as h:
+  long_description = h.read()
 
 #%% Actual setup
 setup(
   name="daul",
   version='0.1.0',
   description="Data analysis and other utilities for python.", 
+  long_description=long_description, 
+  long_description_content_type='text/x-rst',
   #   
   author="Miroslav Hruska",
   author_email="hruska.miro@gmail.com", 
