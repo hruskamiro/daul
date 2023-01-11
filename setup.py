@@ -20,6 +20,8 @@ setup(
   keywords="data analysis utilities",
   classifiers=[
     "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent", 
   ],
   # 
   packages=find_packages(),
